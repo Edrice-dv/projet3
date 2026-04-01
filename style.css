@@ -1,0 +1,132 @@
+.conteneur{
+    background-color: white;
+    display: flex;
+}
+.div1{
+    background-color: rgb(180, 180, 180);
+    margin: 10px 0px 10px 10px;
+    padding: 20px;
+    border-radius: 0px;
+    flex: 1;
+}
+.div11{
+    background-color: white;
+    padding: 6px;
+    border-radius: 5px;
+}
+.div12{
+    background-color: rgb(219, 217, 217);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+}
+.lien{
+    text-decoration: none;
+}
+
+.lien:hover{
+    display: inline-block;
+    transform: translatey(10px);
+    cursor: no-drop;
+}
+.h3{
+    background-color: black;
+    color: white;
+    padding: 0px 6px;
+}
+.div16{
+    background-image: url(1763848522640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: wheat;
+}
+.demo{
+
+    backdrop-filter: blur(10px);
+    flex-grow: 1;
+}
+.demo1{
+    backdrop-filter: blur(10px);
+    padding: 10px;
+}
+.h1{
+    font-size: 70px;
+    padding: 0px 0px 0px 60px;
+}
+.div17{
+    display: flex;
+    text-align: start;
+    justify-content: start;
+    align-items: center;
+}
+.div18{
+    padding: 20px 0px 100px 20px;
+    background-image: url(1763848519346.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 10px;
+}
+.div2{
+    flex: 1;
+    background-color: white;
+}
+.div21{
+    display: flex;
+    gap: 12px;
+    margin: 2px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+}
+.p{
+    border: 3px double rgb(110, 83, 32);
+    border-radius: 16px;
+}
+.div22{
+    background-image: url(1766020076497.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 2px;
+}
+.div23{
+    background-color: rgb(16, 82, 20);
+    margin: 0px 0px 0px 200px;
+    border-radius: 16px;
+    
+}
+#image{
+    width: 90px;
+    height: 70px;
+    margin: 20px 0px 0px 10px;
+}
+.div24{
+    display: flex;
+    gap: 20px 30px;
+}
+.div25{
+    background-image: url(1763792677435.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+.div26{
+    text-align: end;
+    display: flex;
+    backdrop-filter: blur(2px);
+}
+.div27{
+    text-align: end;
+}
+button{
+    border-radius: 5px;
+    border-color: white;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: grab;
+}
